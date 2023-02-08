@@ -1,5 +1,5 @@
 /* *****************************************************************************************************************
-Lab ID        : 1.1
+Lab ID        : 2.3
 Program Title : Basics of C Programming
 Author        : Haysten D'costa
 Roll No.      : 21co56
@@ -7,7 +7,10 @@ Class         : Comp B[Batch C3]
 Language      : C
 Due Date      : --
 --------------------------------------------------------------------------------------------------------------------
-Description   : C Program to find and print the sum of first 'n' natural numbers...
+Description   : C Program to Convert given temperature :
+                    1. From Calvin to Fahrenheit,
+                    2. From Fahrenheit to Calvin.....
+                    
 Input         : range
 Output        : sum of first n numbers
 Algorithm     : --
