@@ -1,25 +1,45 @@
-//CP TO FIND AREA AND CIRCUMFERENCE OF A CIRCLE:
-//HAYSTEN D'COSTA(21CO56)
-#include<stdio.h>
-#include<math.h>
+/* *****************************************************************************************************************
+Lab ID        : 2.2
+Program Title : Basics of C Programming
+Author        : Haysten D'costa
+Roll No.      : 21co56
+Class         : Comp B[Batch C3]
+Language      : C
+Due Date      : --
+--------------------------------------------------------------------------------------------------------------------
+Description   : C Program to find area and circumference of a circle...
+Input         : radius
+Output        : circumference
+Algorithm     : --
+Prerequisites : Basics of C
+Known Bugs    : NONE
+***************************************************************************************************************** */
+#include <stdio.h>
+
+//Function computes the area of circle...
+float computeArea(float radius);
+//Function computes the circumference of circle...
+float computeCircumference(float radius);
+
 int main()
 {
-    //DECLARATION OF VARIABLES
-    int r;
-    float A,C;
-
-    //INPUT OF VARIABLES
-    printf("Enter value of Radius :  ");
-    scanf("%d",&r);
-
-    //COMPUTATION
-    A = (3.14*r*r);
-    C = (2*3.14*r);
-
-    //OUTPUT
-    printf("\nValue of entered radius = %d\n",r);
-    printf("Value of computed AREA  = %f\n",A);
-    printf("Value of computed CIRCUMFERENCE  = %f\n",C);
+    float radius;
+    float area, circumference;
+    printf("Enter the radius for circle :  ");
+    scanf("%f", &radius);
+    printf("\nRESULT : \n");
+    printf("\n-> Radius entered is : %f", radius);
+    printf("\n-> Area of circle is : %f", computeArea(radius));
+    printf("\n-> Circumference of circle is : %f", computeCircumference(radius));
+    printf("\n\n");
 
     return(0);
+}
+float computeArea(float radius)
+{
+    return(3.14 * radius * radius);
+}
+float computeCircumference(float radius) 
+{
+    return(2 * 3.14 * radius);
 }

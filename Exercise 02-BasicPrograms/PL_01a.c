@@ -1,25 +1,43 @@
-//CP TO CHECK WHETHER NO.IS EVEN OR ODD:
-//HAYSTEN D'COSTA(21co56)
-#include<stdio.h>
-int main()
+/* *****************************************************************************************************************
+Lab ID        : 2.1
+Program Title : Basics of C Programming
+Author        : Haysten D'costa
+Roll No.      : 21co56
+Class         : Comp B[Batch C3]
+Language      : C
+Due Date      : --
+--------------------------------------------------------------------------------------------------------------------
+Description   : C Program to check whether no. entered is even or odd...
+Input         : num
+Output        : Statement whether even or odd
+Algorithm     : --
+Prerequisites : Basics of C
+Known Bugs    : NONE
+***************************************************************************************************************** */
+#include <stdio.h>
+
+//Function displays whether the number entered is even or odd...
+void checkEvenOdd(int num); 
+int main() //Main Function...
 {
-    //DECLARATION OF VARIABLES
     int num;
+    printf("\nEnter a number : ");
+    scanf("%d", &num);
+    printf("\nRESULT : \n");
+    printf("\n-> Number entered is : %d", num);
+    checkEvenOdd(num); //Function call to checkEvenOdd...
+    printf("\n\n");
 
-    //INPUT OF VARIABLES
-    printf("Enter  a number :  ");
-    scanf("%d",&num);
-
-    //PROCESS(STATEMENTS) AND OUTPUT
-    if (num%2==0)
-    {
-        printf("Number entered is %d\n",num);
-        printf("Number entered is an EVEN no.\n");
-    }
-    else
-    {
-        printf("Number entered is a%d\n",&num);
-        printf("Number entered is an ODD no.\n");
-    }
     return(0);
+}
+void checkEvenOdd(int num) 
+{
+    if((num % 2) == 0) 
+    {
+        printf("\n-> Number '%d' entered is an even number", num);
+    }
+    else 
+    {
+        printf("\n-> Number '%d' entered is an odd number", num);
+    }
 }
