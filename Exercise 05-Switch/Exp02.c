@@ -1,5 +1,19 @@
-//CP TO IMPLEMENT A SIMPLE CALCULATOR
-//HAYSTEN D'COSTA(21CO56)
+/* *****************************************************************************************************************
+Lab ID        : 5.2
+Program Title : Basics of C Programming
+Author        : Haysten D'costa
+Roll No.      : 21co56
+Class         : Comp B[Batch C3]
+Language      : C
+Due Date      : --
+--------------------------------------------------------------------------------------------------------------------
+Description   : C Program to implement a simple calculator...
+Input         : num1, num2
+Output        : result
+Algorithm     : --
+Prerequisites : Basics of C
+Known Bugs    : NONE
+***************************************************************************************************************** */
 
 #include<stdio.h>
 int main()
@@ -15,7 +29,7 @@ int main()
     scanf("%d",&num2);
     printf("\nEnter operator:  ");
 
-    /* SPECIAL  CASE...since compiler doesn't accept CHAR input(skipped)*/
+    /* SPECIAL  CASE...since compiler doesn't accept CHAR input(skips)*/
     fflush(stdin);
     scanf("%c",&OP);
 

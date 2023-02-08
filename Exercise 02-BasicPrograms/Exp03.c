@@ -63,6 +63,7 @@ int main()
                 break;
             case 0 :printf("\nProgram Exited !\n"); 
                     exit(1);
+            default:printf("\nInvalid choice entered !\n");
         }
     }
     return(0);

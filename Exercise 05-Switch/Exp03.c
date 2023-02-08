@@ -1,16 +1,26 @@
-//CP TO DISPLAY DAYS OF THE WEEK USING CERTAIN INPUT NOs FROM 1-7.
-//HAYSTEN D'COSTA(21CO56)
+/* *****************************************************************************************************************
+Lab ID        : 5.3
+Program Title : Basics of C Programming
+Author        : Haysten D'costa
+Roll No.      : 21co56
+Class         : Comp B[Batch C3]
+Language      : C
+Due Date      : --
+--------------------------------------------------------------------------------------------------------------------
+Description   : C Program to display days of week using certain number codes...
+Input         : num
+Output        : day of week
+Algorithm     : --
+Prerequisites : Basics of C
+Known Bugs    : NONE
+***************************************************************************************************************** */
 #include<stdio.h>
+
 int main()
 {
-    //DECLARATION OF VARIABLES
     int day;
-
-    //INPUT OF VARIABLES
     printf("Enter the day code:  ");
     scanf("%d",&day);
-
-    //OUTPUT
     printf("Entered day code value = %d",day);
 
     switch(day)

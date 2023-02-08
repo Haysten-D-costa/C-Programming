@@ -1,4 +1,21 @@
+/* *****************************************************************************************************************
+Lab ID        : 5.1
+Program Title : Basics of C Programming
+Author        : Haysten D'costa
+Roll No.      : 21co56
+Class         : Comp B[Batch C3]
+Language      : C
+Due Date      : --
+--------------------------------------------------------------------------------------------------------------------
+Description   : C Program to show use of switch...
+Input         : --
+Output        : Hey
+Algorithm     : --
+Prerequisites : Basics of C
+Known Bugs    : NONE
+***************************************************************************************************************** */
 #include<stdio.h>
+
 int main()
 {
     //Declaration and initializationof variables
